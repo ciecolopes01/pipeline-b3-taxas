@@ -72,10 +72,13 @@ https://www.b3.com.br/pesquisapregao/download?filelist=TS{YYMMDD}.ex_
 
 ## Próximos Passos (Visão Futura com Inteligência Artificial)
 
-Para evoluir a resiliência e a usabilidade do pipeline, os seguintes casos de uso de IA (LLMs) estão mapeados:
+Foi elaborado um plano estratégico detalhado de como integrar IA (LLMs e Agentes Autônomos) para tornar a arquitetura cognitiva, robusta e escalável para os usuários analíticos da empresa. 
 
-1. **Parser Auto-Reparável:** Módulo que detecta falhas nas mudanças de formato da B3 e usa LLMs para gerar dinamicamente o novo dicionário/layout posicional de extração.
-2. **Validador Semântico (Agente de Qualidade):** Interceptação de alertas do Data Quality por um Agente IA que cruza saltos nas taxas com notícias de mercado, silenciando falsos positivos.
-3. **Assistente Text-to-SQL/Pandas:** Chatbot integrado às tabelas Parquet publicadas, permitindo que as mesas de operação cruzem safras de crédito usando linguagem natural.
-4. **Resumo Inteligente de Incidentes:** Webhook no Airflow que envia logs de erro resumidos no Slack com sugestões acionáveis (ex: "Aumentar timer de backoff devido a rate-limit").
-5. **Data Catalog Automatizado:** Agente em CI/CD que mantém a documentação atualizada conforme novas lógicas de curva são adicionadas na transformação.
+👉 **[Ver Planejamento Detalhado: Visão Futura de IA](docs/visao_futura/planejamento_ia.md)**
+
+Casos mapeados:
+1. **Parser Auto-Reparável:** Módulo que detecta falhas e regenera mapeamentos.
+2. **Validador Semântico:** Interceptação inteligente de alertas que cruza com notícias.
+3. **Assistente Text-to-SQL/Pandas:** Chatbot de cruzamento de safras em linguagem natural.
+4. **Resumo Inteligente de Incidentes:** Alertas de DAGs traduzidos por LLM.
+5. **Data Catalog Automatizado:** CI/CD Agents que criam e atualizam documentação técnica a cada Pull Request.
