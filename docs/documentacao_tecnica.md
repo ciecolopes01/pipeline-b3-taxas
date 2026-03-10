@@ -228,8 +228,6 @@ graph TD
     style AlertAgent fill:#a8c4f6,stroke:#6392d9,stroke-width:2px,color:#333
 ```
 
-![Arquitetura da Solução Futura](arquitetura_solucao_futura.png)
-
 1. **Resolução Dinâmica de Layouts (Self-Healing Parser)**
    - **Problema:** A B3 altera o layout dos arquivos historicamente (posicional, CSV com `;`, tabs, etc.).
    - **Solução IA:** Em caso de falha de parsing, o arquivo bruto é enviado a um LLM que identifica o novo padrão e ajusta dinamicamente a lógica de extração sem quebrar a DAG.
