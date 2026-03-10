@@ -68,14 +68,14 @@ https://www.b3.com.br/pesquisapregao/download?filelist=TS{YYMMDD}.ex_
 
 ## Documentação
 
-- [Documentação Técnica](./docs/documentacao_tecnica.md) — Arquitetura, modelagem, backfill, qualidade e trade-offs
-- [Manual de Testes Locais](./docs/manual_de_testes_locais.md) — Passo a passo para executar testes de Extração Única e de Carga Histórica (Backfill) no próprio terminal.
+- [Documentação Técnica](docs/documentacao_tecnica.md) — Arquitetura, modelagem, backfill, qualidade e trade-offs
+- [Manual de Testes Locais](docs/manual_de_testes_locais.md) — Passo a passo para executar testes de Extração Única e de Carga Histórica (Backfill) no próprio terminal.
 
 ## Próximos Passos (Visão Futura com Inteligência Artificial)
 
 Foi elaborado um plano estratégico detalhado de como integrar IA (LLMs e Agentes Autônomos) para tornar a arquitetura cognitiva, robusta e escalável para os usuários analíticos da empresa. 
 
-👉 **[Ver Planejamento Detalhado: Visão Futura de IA](./docs/visao_futura/planejamento_ia.md)**
+👉 **[Ver Planejamento Detalhado: Visão Futura de IA](docs/visao_futura/planejamento_ia.md)**
 
 Casos mapeados:
 1. **Parser Auto-Reparável:** Módulo que detecta falhas e regenera mapeamentos.
