@@ -2,7 +2,7 @@
 
 Este manual descreve o passo a passo para você executar a extração de dados reais no seu computador, tanto para um único dia específico quanto para a simulação de carga histórica (Backfill) rodando no terminal.
 
-> **Pré-requisito:** Certifique-se de estar na pasta raiz do projeto (`C:\Users\cieco\Documents\projeto\plgn`) e com o seu ambiente virtual Python ativado (caso utilize um). Garanta que os pacotes do `requirements.txt` estão instalados.
+> **Pré-requisito:** Certifique-se de estar na pasta raiz do projeto (`C:\seu\caminho\para\plgn`) e com o seu ambiente virtual Python ativado (caso utilize um). Garanta que os pacotes do `requirements.txt` estão instalados.
 
 ---
 
@@ -15,7 +15,7 @@ Este teste aciona o pipeline de ponta a ponta para baixar, transformar, validar 
 1. Abra o Terminal (PowerShell, Git Bash ou CMD) dentro do VS Code.
 2. Certifique-se de estar na pasta `plgn`:
    ```bash
-   cd C:\Users\cieco\Documents\projeto\plgn
+   cd C:\seu\caminho\para\plgn
    ```
 3. Execute o script `run_pipeline.py` com a flag `--date` indicando a data alvo (no formato `YYYY-MM-DD`):
    ```bash
