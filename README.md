@@ -69,6 +69,7 @@ https://www.b3.com.br/pesquisapregao/download?filelist=TS{YYMMDD}.ex_
 ## Documentação
 
 - [Documentação Técnica](docs/documentacao_tecnica.md) — Arquitetura, modelagem, backfill, qualidade e trade-offs
+- [Manual de Testes Locais](docs/manual_de_testes_locais.md) — Passo a passo para executar testes de Extração Única e de Carga Histórica (Backfill) no próprio terminal.
 
 ## Próximos Passos (Visão Futura com Inteligência Artificial)
 
