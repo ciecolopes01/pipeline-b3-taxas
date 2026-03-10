@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Dados
+data/
+*.parquet
+*.csv
+*.ex_
+*.zip
+*.txt
+
+C:/tmp/
+
+# Logs e IDE
+logs/
+.vscode/
+.idea/
+.pytest_cache/
